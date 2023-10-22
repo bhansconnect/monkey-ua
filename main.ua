@@ -3,7 +3,7 @@ Src ← $ "Hello,# World!" # " This is in a comment
       $ Still quote, # not comment
       $ ending quote"
 
-# Src -> Comment Mask escluding newlines
+# Src -> Comment Mask excluding newlines
 Comments ← =2⊙;∧⋄⋄~(⊃⊂⋅∘ ⊙(◿3+1⊗∶"\"#"|≠@"|×2≠@\n))[] 0
 
 # Src Comments -> Quote data mask (excludes actual quote characters)
